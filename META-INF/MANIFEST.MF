@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DemoJSP
+Bundle-SymbolicName: DemoJSP
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: DemoJSP.jar,
+ Imran/Downloads/postgresql-42.2.19.jar,
+ Imran/Downloads/mysql-connector-java-8.0.23.jar
+Automatic-Module-Name: DemoJSP
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Export-Package: Admin,
+ Database

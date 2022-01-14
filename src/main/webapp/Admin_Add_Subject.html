@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Mentor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="add_subject.css">
+</head>
+<body>
+    <div class="total">
+        <span style="height: 10px;">&nbsp;</span>
+        <h1 style="text-align: center;margin-bottom: 40px;">Add Subject</h1>
+        <div style="width: 90%; margin: 30px;">
+            <form class="subject_form" action="./addSubject" method="post">
+                <label>Subject Name</label>
+                <div>
+                    <input type="text" id="name" minlength="3" name="subjectname" placeholder="Subject Name" oninput="CheckName()" required>
+                    <i class="fa fa-check-circle icon1" id="suc_1"></i>
+                    <i class="fa fa-exclamation-circle icon2" id="fail_1"></i>
+                    <small id="err1" class="error"></small>
+                </div>
+                <label>Course Code</label>
+                <div>
+                    <input type="text" id="code" minlength="6" name="code" placeholder="example: MT2105" oninput="CheckCode()" required>
+                    <i class="fa fa-check-circle icon1" id="suc_2"></i>
+                    <i class="fa fa-exclamation-circle icon2" id="fail_2"></i>
+                    <small id="err2" class="error"></small>
+                </div>
+                <label>Department</label>
+                <select name="dept" id="dept" required>
+                    <option value="" disabled selected hidden>Select</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ME">ME</option>
+                    <option value="BT">BT</option>
+                    <option value="PE">PE</option>
+                </select>
+                <label>Year</label>
+                <select name="year" id="year" required>
+                    <option value="" disabled selected hidden>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <label>Semester</label>
+                <select name="sem" id="sem" required>
+                    <option value="" disabled selected hidden>Select</option>
+                    <option value="1">Odd</option>
+                    <option value="2">Even</option>
+                </select>
+                <span></span>
+                <span></span>
+                <button onclick="Submit()">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="add_subject.js"></script>
+</body>
+</html>

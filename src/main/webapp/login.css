@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #ccc5c5; */
+    background-color: #f2f2f2;
+}
+
+h1{
+    margin-left: 40%;
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #000;
+    border-bottom: 2px solid #000;
+    width: 85px;
+}
+label
+{
+    font-size: 22px;
+    margin: 15px;
+}
+input
+{
+    width: 75%;
+    margin: 15px;
+    height: 30px;
+}
+.icon
+{
+    margin-left: 45%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.but
+{
+    margin: 20px;
+}
+button
+{
+    margin-left: 30%;
+    width: 75px;
+    height: 30px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width:769px)
+{
+    .login
+    {
+        width: 400px;
+        border: 2px solid #fff;
+        margin: 100px auto;
+        border-radius: 10px;
+        /* background: #396afc; 
+        background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+        background: linear-gradient(to right, #2948ff, #396afc); */
+        color: #000;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media only screen and (max-width:769px)
+{
+    .login
+    {
+        width: 400px;
+        border: 2px solid #fff;
+        margin: 100px auto;
+        border-radius: 10px;
+        /* background: #396afc; 
+        background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+        background: linear-gradient(to right, #2948ff, #396afc); */
+        color: #000;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+    .login
+    {
+        width: 90%;
+        margin: 100px auto;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        /* background: #396afc; 
+        background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+        background: linear-gradient(to right, #2948ff, #396afc); */
+        color: #000;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.anchor
+{
+    color: #fff;
+}
